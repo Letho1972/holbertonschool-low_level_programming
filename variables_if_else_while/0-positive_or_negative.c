@@ -1,8 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - positif or negatif
+ * Return: success
+ */
+
 int main(void)
 {
 	int n;
@@ -17,11 +21,11 @@ int main(void)
 	}
 	if (n == 0)
 	{
-		printf("%d n is 0.\n", n);
+		printf("%d is 0.\n", n);
 	}
 	if (n < 0)
 	{
-		printf("%n n is negative.\n", n);
+		printf("%d is negative.\n", n);
 	}
 	return (0);
 }
