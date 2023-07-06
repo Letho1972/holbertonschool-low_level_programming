@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * _sqrt_recursion - Write a function that returns the natural square a number
- * @n: n does not have a natural square root
+ * perfect - Write a function that returns the natural square a number
+ * @a: a value of n
+ * @r: result
  * Return: to indicate an error
  */
 int perfect(int r, int a)
@@ -18,11 +19,16 @@ int perfect(int r, int a)
 	{
 		return (perfect(r, a + 1));
 	}
-}	
+}
+/**
+ *  _sqrt_recursion - Write a function that returns the natural square a number
+ * @n: n does not have a natural square
+ * Return: to indicate an error
+ */
 int _sqrt_recursion(int n)
 {
 	{
-	return (perfect(n, 1));
+		return (perfect(n, 1));
 
 	}
 }
