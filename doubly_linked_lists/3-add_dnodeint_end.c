@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
- * dnodeint_end - Write a function that adds a new node at the end
+ * add_dnodeint_end - Write a function that adds a new node at the end
  *@head: the beginning to the list
  *@n: the member
  * Return: the address of the new element
