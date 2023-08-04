@@ -15,9 +15,11 @@ unsigned int binary_to_uint(const char *b)
 	while (b[i] != '\0')
 	{
 		char currentDigit = b[i];
+
 		if (currentDigit == '0' || currentDigit == '1')
 		{
 			int digitValue = currentDigit - '0';
+
 			result = (result << 1) | digitValue;
 			i++;
 		}
